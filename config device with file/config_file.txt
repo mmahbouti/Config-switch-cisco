@@ -1,0 +1,7 @@
+vlan 20
+name lan
+exit
+
+inter gi 0/1
+switchport trunk allowed vlan add 20
+exi
